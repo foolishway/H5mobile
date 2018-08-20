@@ -1,0 +1,119 @@
+body {
+  background: rgb(249, 249, 255)
+}
+
+div {
+  background: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0);
+  position: static;
+}
+
+.banner {
+  background: url(../images/view-pic@2x.png);
+  background-position: center center;
+  background-size: cover;
+  height: 150px;
+}
+
+.tabs-wrap ul li {
+  width: 25%;
+}
+
+.zc-content .caution {
+  color: #FF4500;
+}
+
+.zc-content .caution img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.zc-content .bus {}
+
+.zc-content .bus img {
+  width: 100%;
+}
+
+.module {
+  /* position: relative; */
+}
+
+.module .line {
+  border-left: 1px solid #F0F0F0;
+}
+
+.module .title {
+  color: #3D3D3D;
+  font-size: 15px;
+  position: relative;
+  left: -30px;
+}
+
+.module .title-icon {
+  /* position: absolute; */
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.module .title-icon img {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+
+.module .title-num {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.indent {
+  text-indent: 2em
+}
+
+.module-img {}
+
+.module-img img {
+  width: 100%;
+}
+
+.ml7 {
+  margin-left: 7px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.end {
+  padding-bottom: 30px;
+}
+
+.title-icon-end {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  background: #F0F0F0;
+}
+
+.title-text-end {
+  color: #8A8A8A;
+  font-size: 13px;
+  position: absolute;
+  left: 20px;
+}

@@ -1,0 +1,129 @@
+/*header start*/
+.search-box {
+  height: 44px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.search-box .shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  line-height: 44px;
+  font-size: 15px;
+  color: #3E3E3E;
+}
+
+.search-box .shadow img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.search-box .input-wrap {
+  background: #F2F0F0;
+  border-radius: 45px;
+  text-align: center;
+  height: 100%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.search-box .input-wrap input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.search-box .input-wrap input:focus {
+  outline: none;
+}
+
+.swiper-container {
+  /* width: 600px; */
+  height: 150px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.module-header .right a{
+  color: #22AEE6 !important;
+}
+
+.module-header .right img {
+  width: 7pt;
+  height: 13px;
+  vertical-align: middle;
+}
+
+.module .module-main {
+  margin-bottom: 10px;
+}
+
+.module .module-main img {
+  width: 100%;
+}
+
+.module .module-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.module .module-item .item {
+  width: calc(33.33% - 10px);
+}
+.module .module-item .item .item-text span.price{
+  color: #FF4500;
+}
+
+.module .module-item .item img {
+  width: 100%;
+}
+.news-wrap{
+  margin-bottom: 15px;
+}
+.news-wrap .news-item{
+  display: flex;
+  margin-top: 10px;
+}
+.news-wrap .news-item img{
+  width: 108px;
+  height: 65px;
+  margin-right: 10px;
+}
+.news-wrap .news-item .news-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news-wrap .news-item .news-content .news-title{
+  color:#3D3D3D;
+}
+.news-wrap .news-item .news-content .news-des{
+  font-size:12px;
+  color:#A3A3A3;
+}
+.news-wrap .news-item .news-content .news-des .time{
+ float: right;
+}
+.news-img-text{
+  font-size: 17px;
+  color:#fff;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}

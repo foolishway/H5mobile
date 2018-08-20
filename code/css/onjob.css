@@ -1,0 +1,29 @@
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.job-module {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E6E6E6;
+  color: #8A8A8A;
+}
+
+.job-module p{
+  line-height: 20px;
+  margin: 0;
+}
+
+.job-module .job-module-header {}
+
+.job-module .job-module-header span.left {
+  font-size: 16px;
+  color: #3D3D3D;
+  float: left;
+}
+
+.job-module .job-module-header span.right {
+  /* font-size: 16px; */
+  float: right;
+}
